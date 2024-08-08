@@ -1,66 +1,6 @@
-## Foundry
+# About the proyect
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+In this project, I launched an NFT collection called _Crypto Devs_, and to ensure that my early supporters had guaranteed access to the NFT mint, I decided to build a whitelist dApp. I developed a feature that allows the first 10 users to join the whitelist for free, giving them exclusive access to mint an NFT from the collection at no cost once it goes live. For users who didn’t make it onto the whitelist, I implemented a paid minting system.
 
-Foundry consists of:
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+I created 2 smart contracts, one for a whitelist and another for an NFT collection, following the [LearnWeb3](https://learnweb3.io/degrees/ethereum-developer-degree/sophomore/build-an-nft-collection-with-a-whitelist-using-foundry-and-solidity/) tutorial using Foundry. I deployed and verified them on Mode's testnet using this [article](https://dev.to/modenetwork/how-to-deploy-and-verify-a-smart-contract-on-modes-blockchain-using-foundry-2p5n)
