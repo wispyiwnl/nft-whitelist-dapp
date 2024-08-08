@@ -4,3 +4,6 @@ In this project, I launched an NFT collection called _Crypto Devs_, and to ensur
 
 
 I created 2 smart contracts, one for a whitelist and another for an NFT collection, following the [LearnWeb3](https://learnweb3.io/degrees/ethereum-developer-degree/sophomore/build-an-nft-collection-with-a-whitelist-using-foundry-and-solidity/) tutorial using Foundry. I deployed and verified them on Mode's testnet using this [article](https://dev.to/modenetwork/how-to-deploy-and-verify-a-smart-contract-on-modes-blockchain-using-foundry-2p5n)
+
+**Whitelist contract:**  0x2e122F4453394791dFd57eB0D28545A04f46c846
+**Collection contract:** 0x426Bbd9B8aa1555ba5f5b2Ca7581897d86f5d09E
